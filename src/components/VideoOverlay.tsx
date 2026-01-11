@@ -24,7 +24,7 @@ const VideoOverlay = ({messages}: VideoOverlayProps) => {
     right: '20px',
     width: '80px',
     height: '45px',  // 16:9 aspect ratio
-    backgroundImage: `url('/introthumbnail.jpeg')`,
+    backgroundImage: `url('/jpthumbnail.jpeg')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     borderRadius: '8px',
@@ -86,7 +86,7 @@ const VideoOverlay = ({messages}: VideoOverlayProps) => {
               paddingTop: '93.611111%' 
             }}
           >
-            <script src="https://go.screenpal.com/player/appearance/cTl0hvnYs1H"></script>
+            <script src="https://go.screenpal.com/player/appearance/cOVXFcnrxAV"></script>
             <iframe 
               style={{ 
                 position: 'absolute', 
@@ -97,7 +97,7 @@ const VideoOverlay = ({messages}: VideoOverlayProps) => {
                 border: 0 
               }} 
               scrolling="no" 
-              src="https://go.screenpal.com/player/cTl0hvnYs1H?ff=1&title=0" 
+              src="https://go.screenpal.com/player/cOVXFcnrxAV?ff=1&title=0" 
               allowFullScreen 
             />
           </div>
